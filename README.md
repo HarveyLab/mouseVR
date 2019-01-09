@@ -17,6 +17,12 @@ The VR setup is comprised of several independent assemblies:
 
 4. Enclosure: A light and sound-proof box surrounding the behavioral setup.
 
+The following figure shows the main components of the screen and ball assemblies:
+![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/Figs/VROverview.png)
+
+
+
+
 ### Getting started
 
 All the parts for the assemblies are listed in this google sheet: https://docs.google.com/spreadsheets/d/1hkXaeRBd7GJPuhIFjeKkEIziQik9mlkZpzjhxGrkA7A/edit?usp=sharing 
@@ -26,7 +32,6 @@ It is recommended that you have a look at the relevant sections of the build gui
 ### Getting help
 
 Please open an issue or email noahpettit_at_gmail if you notice a mistake or have a question.
-
 
 
 
