@@ -1,4 +1,10 @@
-# HarVR
+# Harvey Lab Mouse VR
+
+
+
+
+## Overview
+### Main components
 Harvey Lab miniaturize mouse VR rig for virtual navigation and decision-making tasks
 
 The VR setup is comprised of several independent assemblies:
@@ -10,4 +16,25 @@ The VR setup is comprised of several independent assemblies:
 3. Reward delivery system and lick sensor: lick spout, liquid reward reservoir, solenoid, and associated electronics
 
 4. Enclosure: A light and sound-proof box surrounding the behavioral setup.
+
+### Getting started
+
+All the parts for the assemblies are listed in this google sheet: https://docs.google.com/spreadsheets/d/1hkXaeRBd7GJPuhIFjeKkEIziQik9mlkZpzjhxGrkA7A/edit?usp=sharing 
+
+It is recommended that you have a look at the relevant sections of the build guide before ordering your parts. There are additional notes notes there about the part requirements. 
+
+### Getting help
+
+Please open an issue or email noahpettit_at_gmail if you notice a mistake or have a question.
+
+
+
+
+
+
+
+
+
+
+
 
