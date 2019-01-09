@@ -11,4 +11,3 @@ The VR setup is comprised of several independent assemblies:
 
 4. Enclosure: A light and sound-proof box surrounding the behavioral setup.
 
-DOCUMENTATION ALL IN WIKI (for now)
