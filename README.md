@@ -17,10 +17,13 @@ The VR setup is comprised of several independent assemblies:
 
 4. Enclosure: A light and sound-proof box surrounding the behavioral setup.
 
+Each of these components is independent of the others: i.e. just the screen could be used in combination with a different treadmill and reward delivery system. The electronics for the ball sensors, reward delivery, and lick detection are all mounted on the same PCB. If only one or two of these functions are needed, you do not need to populate the entire PCB.
+
+
 The following figure shows the main components of the screen and ball assemblies:
+
+
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/Figs/VROverview.png)
-
-
 
 
 ### Getting started
