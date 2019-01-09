@@ -30,11 +30,11 @@ The following figure shows the main components of the screen and ball assemblies
 
 All the parts for the assemblies are listed in this google sheet: https://docs.google.com/spreadsheets/d/1hkXaeRBd7GJPuhIFjeKkEIziQik9mlkZpzjhxGrkA7A/edit?usp=sharing 
 
-It is recommended that you have a look at the relevant sections of the build guide before ordering your parts. There are additional notes notes there about the part requirements. 
+The build guide contains detailed schematics of the various assemblies, as well as additional notes there about part requirements. 
 
 ### Getting help
 
-Please open an issue or email noahpettit_at_gmail if you notice a mistake or have a question.
+Please open an issue or email noahpettit_at_gmail .
 
 
 
