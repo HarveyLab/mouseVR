@@ -30,7 +30,7 @@ The build guide (below, for now) contains detailed schematics of the various ass
 
 ### Getting help
 
-Please open an issue or email noahpettit_at_gmail .
+Please open an issue or email Noah.
 
 
 
@@ -85,12 +85,9 @@ For part preparation you will need the following equipment:
 • Laser cutter with at least 12 x 24" bead, power to cut through 1/4 inch acrylic. (There are online services that will do this cutting for you if you don't have access to a laser cutter. WE have been quoted around $400 for cutting these desings, although there may be cheaper options).
 
 Steps:
-1. Laser cut the parts. Download the file "mouseVR_Screen_laserCutterReady.pdf". This file contains all parts laid out for
-cutting on two 18 x 32" pieces of acrylic. Ensure that the black scale square is 1" on each side, and scale parts uniformly
-if necessary. You can check that the dimensions match up to the dimensions in the part drawings in the appendix of this
-document. Delete the black square. Each part has a different stroke color to enable easier selection of individual parts if
-you need to rearrange them. Change stroke characteristics as required by your laser cutting software. Everything should
-be vector cut. Cut the parts.
+1. Laser cut the parts. The file you should need is https://github.com/HarveyLab/mouseVR/blob/master/Hardware/BackProjection/vrRig_laserCutter_allParts.pdf. The scale in the document should be 1:1, inch units, but a small 1x1" scale sqaure is included. Ensure that it is 1" on each side, and scale parts uniformly if necessary. Arrage the parts for cutting. eg, for cutting on two 18 x 32" pieces of acrylic:
+![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/efficient_parts_layout.PNG)
+
 2. Tap holes in the laser cut parts. All round holes in the laser cut parts are either 0.26" through holes, or 0.2-0.21 holes
 that should be 1/4-20 tapped. It is safe to assume that if a 1/4-20 screw does not fit through it, it should be tapped. Refer
 to the parts drawings if you are unsure. Don’t worry about tapping perfectly perpendicular to the face of the acrylic - we
@@ -250,10 +247,11 @@ Final board should look like this:
 
 # VR rig details
 
-Mouse positioning on the ball:
+Mouse positioning relative to the screen:
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/mouse_positioning_on_the_ball.png)
+Some people have placed the mouse further back to allow for more room for equiptment and this seems to be fine for behavior. 
 
-Very approximate visual field coverage:
+Very approximate visual field coverage with the placement of the mouse as above:
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/approximate_visual_field_coverage.png)
 
 
@@ -265,6 +263,12 @@ Very approximate visual field coverage:
 
 
 # Software
+
+
+
+# Appendix
+
+## Part drawings / dimensions:
 
 
 
