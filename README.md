@@ -188,6 +188,8 @@ Follow these steps to assemble the sensors:
 
 3. Attach the plastic lens to the sensor board with epoxy. Apply epoxy only to the back of the board, where the small pins of the lens assembly protrude through the holes in the board. While the epoxy hardens, place the sensor lens-down on a ﬂat surface to ensure that the lens assembly is seated correctly.
 
+![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/sensor_epoxy-01.png)
+
 4. Use a 2-56 tap to tap the screw holes in the ball cup. Alternately, just use a 2-56 screw to self-tap.
 
 5. Put the sensors into the holes in the ball cup (oriented such that the connector pins ﬁt into the cutaway next to the sensor hole). Make sure that the sensor "slots in" all the way and sits ﬂush with the ball cup. Any failure to make the sensor completely ﬂat/tangent to cup surface will lead to erroneous measurements. Fix in place with the screws.
@@ -287,8 +289,7 @@ https://github.com/HarveyLab/mouseVR/blob/master/Software/Virmen/transformations
 # FAQs
 
 **What are the computer hardware requirements?** 
-
-The projector is driven simply as another monitor, so this really depends on the VR software that you are using. Consult the documentation for whatever visual stimulus or VR system you are using: Our computers use GTX 1060 cards (https://www.amazon.com/GR8-II-T044Z-Desktop-i5-7400-GeForce/dp/B06WLHT15C is one model we have used successfully) but this is overkill for most of the worlds we render. Integrated graphics are a bad idea and will likely result in <60FPS. For ViRMEn we suggest at least a 3.00GHz CPU and 8GB of RAM. 
+The projector is driven simply as another monitor, so this really depends on the VR software that you are using and the complexity of the worlds that you need to render. Consult the documentation for whatever visual stimulus or VR software you are using: Our computers use GTX 1060 cards (https://www.amazon.com/GR8-II-T044Z-Desktop-i5-7400-GeForce/dp/B06WLHT15C is one model we have used successfully) but this is overkill for most of the worlds we render. Integrated graphics are a bad idea and will likely result in <60FPS. For ViRMEn we suggest at least a 3.00GHz CPU and 8GB of RAM. 
 
 **What are the pros and cons of using this setup over multiple monitors?**
 The pros (+) and cons (-) of multiple monitors:
