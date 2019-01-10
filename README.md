@@ -36,9 +36,7 @@ Please open an issue or email noahpettit_at_gmail .
 
 
 
-# mouseVR Build Guide
-
-Temporary - move to latex doc or website for better formatting w/ in-doc links
+# Build Guide
 
 ## Screen Assembly
 
@@ -229,6 +227,39 @@ Example expected output of debugMode.ino for stationary ball:
 
 intP,R,and Y are the pitch, roll, and yaw values. 
 
+## Reward system
+
+![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/circuit_board_wiring.png?raw=true)
+
+## Behavior PCB Overview
+
+![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/HarveyBehaviorPCB_v1.2.png)
+
+### Getting started
+
+The parts are listed in the "behavior electronics" section of the parts list google doc: https://docs.google.com/spreadsheets/d/1hkXaeRBd7GJPuhIFjeKkEIziQik9mlkZpzjhxGrkA7A/edit?usp=sharing 
+
+The files to get the circuit board printed are in https://github.com/HarveyLab/mouseVR/tree/master/BehaviorElectronics/HarveyBehaviorPCB_v1.2 
+We use 4pcb.com 
+
+The top will be screen printed with parts codes that you can look up in the bill of materials here: 
+https://github.com/HarveyLab/mouseVR/blob/master/BehaviorElectronics/HarveyBehaviorPCB_v1.2_BOM.xlsx
+
+Also refer to the board schematic here:
+https://github.com/HarveyLab/mouseVR/blob/master/BehaviorElectronics/HarveyBehaviorPCB_v1.2.pdf
+
+Final board should look like this:
+
+# VR rig details
+
+Mouse positioning on the ball:
+
+
+Very approximate visual field coverage:
+
+
+
+
 
 
 
@@ -238,8 +269,6 @@ intP,R,and Y are the pitch, roll, and yaw values.
 # Software
 
 
-
-# Authors and contributions
 
 
 
