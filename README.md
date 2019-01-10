@@ -253,10 +253,10 @@ Final board should look like this:
 # VR rig details
 
 Mouse positioning on the ball:
-
+![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/mouse_positioning_on_the_ball.png)
 
 Very approximate visual field coverage:
-
+![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/approximate_visual_field_coverage.png)
 
 
 
