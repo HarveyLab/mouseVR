@@ -96,19 +96,19 @@ For part preparation you will need the following equipment:
 • Laser cutter with at least 12 x 24" bead, power to cut through 1/4 inch acrylic. (There are online services that will do this cutting for you if you don't have access to a laser cutter. We've been quoted around $400 for cutting these designs, although there may be cheaper options).
 
 Steps:
-1. Laser cut the parts. The file you should need is https://github.com/HarveyLab/mouseVR/blob/master/Hardware/BackProjection/vrRig_laserCutter_allParts.pdf. The scale in the document should be 1:1, inch units, but a small 1x1" scale square is included. Ensure that it is 1" on each side, and scale parts uniformly if necessary. Arrange the parts for cutting. eg, for cutting on two 18 x 32" pieces of acrylic:
+**1. Laser cut the parts.** The file you should need is https://github.com/HarveyLab/mouseVR/blob/master/Hardware/BackProjection/vrRig_laserCutter_allParts.pdf. The scale in the document should be 1:1, inch units, but a small 1x1" scale square is included. Ensure that it is 1" on each side, and scale parts uniformly if necessary. Arrange the parts for cutting. eg, for cutting on two 18 x 32" pieces of acrylic:
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/efficient_parts_layout.PNG)
 
-2. Tap holes in the laser cut parts. All round holes in the laser cut parts are either 0.26" through holes, or 0.2-0.21 holes
+**2. Tap holes in the laser cut parts.** All round holes in the laser cut parts are either 0.26" through holes, or 0.2-0.21 holes
 that should be 1/4-20 tapped. It is safe to assume that if a 1/4-20 screw does not fit through it, it should be tapped. Refer
 to the parts drawings if you are unsure. Don’t worry about tapping perfectly perpendicular to the face of the acrylic - we
 use a hand drill and eyeball it and that works fine for us. Use a blade to clear out waste acrylic from the parabola-shaped
 screen slots in the top and bottom pieces.
-3. Cut screen film to size: Using a ruler and a pair of scissors, cut out a rectangular piece that is approximately 21.3 x 12
+**3. Cut screen film to size:** Using a ruler and a pair of scissors, cut out a rectangular piece that is approximately 21.3 x 12
 inches.
 4. If using McMaster rails or 80-20 that needs to be cut to length, cut 4 pieces 18" in length for the legs, and 2 pieces 15"
 in length for the cross braces. Hand tap the ends of 15" pieces with the 1/4-20 thread cutting tap.
-5. If using self-adhesive black flocked paper, cut two roughly 7.5 x 4" pieces.
+**5. If using self-adhesive black flocked paper, cut two ~ 7.5 x 4" pieces.**
 
 ### Assembly
 
