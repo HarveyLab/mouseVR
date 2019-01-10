@@ -80,8 +80,7 @@ appear textured as a result.
 #### Rails, brackets, and t-nuts
 
 McMaster or Thorlabs or any other 80-20 style rail materials should work. Note that Mcmaster t-nuts / fasteners are not
-compatible with thorlabs rails as they have slightly different slot dimensions. Thorlabs t-nuts are compatible with all rails
-we’ve tested. Only the 15" Horizontal rails need to be 1/4-20 end tapped.
+compatible with thorlabs rails as they have slightly different slot dimensions. Thorlabs t-nuts are compatible with McMaster t-slotted framing. Only the 15" Horizontal rails need to be 1/4-20 end tapped.
 
 #### Acrylic
 
@@ -266,6 +265,10 @@ https://github.com/HarveyLab/mouseVR/blob/master/BehaviorElectronics/HarveyBehav
 
 Final board should look like this:
 
+## Enclosure
+
+
+
 # VR rig details
 
 Mouse positioning relative to the screen:
@@ -274,12 +277,6 @@ You can place the mouse further back to allow for more room for equipment and th
 
 Very approximate visual field coverage with the placement of the mouse as above:
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/approximate_visual_field_coverage.png)
-
-
-
-
-
-
 
 
 
@@ -323,3 +320,4 @@ We have used both a 3 monitor setup and this design and have not found a differe
 
 ### Slide out
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/slideOut_schematic.png)
+
