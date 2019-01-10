@@ -68,7 +68,7 @@ the light for the horizontal center line of the projected image should be at the
 Some projectors (especially short throw) are designed to project upwards from a table or desk, this will not work with the
 setup.
 
-**Note that the laser cut mount for the projector incuded in these designs is specifically for the PicoBit.** It will also work with the Pico Pro and laser beam pro if you remove the top "alignment" piece and stick the projector to the bottom piece using double sided tape or velcro (the height and geometry works, you will just need to center the image by eye when you stick down the projector). 
+**Note that the laser cut mount for the projector included in these designs is specifically for the PicoBit.** It will also work with the PicoPro and laser beam pro if you remove the top "alignment" piece and stick the projector to the bottom piece using double sided tape or velcro (the height and geometry works, you will just need to center the image by eye when you stick down the projector). 
 
 #### Mirrors
 
@@ -94,10 +94,10 @@ These steps will take approximately one hour.
 For part preparation you will need the following equipment:
 • Power drill
 • 1/4-20 thread cutting tap
-• Laser cutter with at least 12 x 24" bead, power to cut through 1/4 inch acrylic. (There are online services that will do this cutting for you if you don't have access to a laser cutter. WE have been quoted around $400 for cutting these desings, although there may be cheaper options).
+• Laser cutter with at least 12 x 24" bead, power to cut through 1/4 inch acrylic. (There are online services that will do this cutting for you if you don't have access to a laser cutter. We've been quoted around $400 for cutting these designs, although there may be cheaper options).
 
 Steps:
-1. Laser cut the parts. The file you should need is https://github.com/HarveyLab/mouseVR/blob/master/Hardware/BackProjection/vrRig_laserCutter_allParts.pdf. The scale in the document should be 1:1, inch units, but a small 1x1" scale sqaure is included. Ensure that it is 1" on each side, and scale parts uniformly if necessary. Arrage the parts for cutting. eg, for cutting on two 18 x 32" pieces of acrylic:
+1. Laser cut the parts. The file you should need is https://github.com/HarveyLab/mouseVR/blob/master/Hardware/BackProjection/vrRig_laserCutter_allParts.pdf. The scale in the document should be 1:1, inch units, but a small 1x1" scale square is included. Ensure that it is 1" on each side, and scale parts uniformly if necessary. Arrange the parts for cutting. eg, for cutting on two 18 x 32" pieces of acrylic:
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/efficient_parts_layout.PNG)
 
 2. Tap holes in the laser cut parts. All round holes in the laser cut parts are either 0.26" through holes, or 0.2-0.21 holes
@@ -131,7 +131,7 @@ more 1" brackets as illustrated.
 
 **4. Assemble the projector mount.** To make sure that you aren’t messing it up, screw the
 projector onto the larger of the two pieces using a 3/8"-long 1/4-20 screw through the center hole in the base mount into
-the threaded hgole on the bottom of the projector. Make sure it is in the orientation such that the fan on the bottom of
+the threaded hole on the bottom of the projector. Make sure it is in the orientation such that the fan on the bottom of
 the projector is fully visible through the cutout in the acrylic (you may need to flip the acrylic base over). Screw the top
 piece of the mount into place as illustrated and then attach the entire thing to the screen assembly using 1/2" (or longer)
 1/4-20 screws.
@@ -203,9 +203,9 @@ Follow these steps to assemble the sensors:
 
 9. Screw the thorlabs posts and post holders in place on either side of the base, and bolt down the ball using 8-32 screws. Adjust the height of the posts so that the ball cup sits firm and snug on the base. Once you've tested everything, you can put a piece of electrical tape around the seam to make it more air-tight. 
 
-10. Attach the air supply. Screw the duct hose fittings onto each end of the duct hose. Place the rubber stopper into one duct hose fitting and slide the other duct hose fitting onto the attachment point in the base (it should fit tightly). Connect the rubber stoppper end of the duct hose to pressurized air using 1/4" tubing. It can be useful to have a pressure gauge & regulator between the wall air and the duct hose, as well as an air filter. You should have at least 4 feet of duct hose in order for the ball to float properly. Add more duct hose to dampen the sound.  
+10. Attach the air supply. Screw the duct hose fittings onto each end of the duct hose. Place the rubber stopper into one duct hose fitting and slide the other duct hose fitting onto the attachment point in the base (it should fit tightly). Connect the rubber stopper end of the duct hose to pressurized air using 1/4" tubing. It can be useful to have a pressure gauge & regulator between the wall air and the duct hose, as well as an air filter. You should have at least 4 feet of duct hose in order for the ball to float properly. Add more duct hose to dampen the sound.  
 
-11. Populate the the behavior circuit board. Refer to the behavior PCB section of the guide. At the very least, you need the teensy and the ribon cable headers. If you want an analog ball signal (as opposed to reading it directly from the teensy) you will also need the RC smoothing circuit (smoothing PWM output of the teensy) and whatever header(s) you will use to read that out (Nationa instruments or BNC).
+11. Populate the the behavior circuit board. Refer to the behavior PCB section of the guide. At the very least, you need the teensy and the ribbon cable headers. If you want an analog ball signal (as opposed to reading it directly from the teensy) you will also need the RC smoothing circuit (smoothing PWM output of the teensy) and whatever header(s) you will use to read that out (National instruments or BNC).
 
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/ball_electronics_overview.png).
 
@@ -214,7 +214,7 @@ Follow these steps to assemble the sensors:
 
 1. Download this repo (all files required): https://github.com/HarveyLab/SPI_Mouse_Control/tree/master
 
-2. Install the Arduino IDE and Teensyduino. Note that software will not work for all versions of Arduino IDE and Teensyduino (confirmed does not work with latest arduino/teensyduino as of April 2018 - it will compile and run but give erroneous output). An installer for verified working versions  (Arduino 1.8.2, Teensyduino 1.36) is located: Z:\HarveyLab\Tier1\Software\Ball Sensor . It is highly recommended you use these versions. 
+2. Install the Arduino IDE and Teensyduino. Note that software will not work for all versions of Arduino IDE and Teensyduino (confirmed does not work with latest arduino/teensyduino as of April 2018 - it will compile and run but give erroneous output). An installer for verified working versions  (Arduino 1.8.2, Teensyduino 1.36) is located here: https://github.com/HarveyLab/mouseVR/tree/master/Software/BallSensor. It is highly recommended you use these versions. 
 
 3. Connect the teensy via USB, and make sure you can identify it in the arduino software. If you are unsure at this step, read documentation and/or use trial code available from teensyduino (documentation: https://www.pjrc.com/teensy/td_usage.html)
 
@@ -267,7 +267,7 @@ Final board should look like this:
 
 Mouse positioning relative to the screen:
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/mouse_positioning_on_the_ball.png)
-Some people have placed the mouse further back to allow for more room for equiptment and this seems to be fine for behavior. 
+You can place the mouse further back to allow for more room for equipment and this seems to be fine for behavior. 
 
 Very approximate visual field coverage with the placement of the mouse as above:
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/approximate_visual_field_coverage.png)
@@ -309,7 +309,7 @@ We have used both a 3 monitor setup and this design and have not found a differe
 
 ## Part drawings / dimensions:
 
-### Screen assmebly
+### Screen assembly
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/vrRig_screen_mainDimensions.png)
 
 ### Ball cup
