@@ -150,6 +150,8 @@ to the sides of the box and block out stray light from the projector.
 
 ## Ball cup assembly
 
+![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/ballCupAssembly_overview.png)
+
 ### Parts list and notes
 
 The parts are listed in the "screen assembly" section of the parts list google doc: https://docs.google.com/spreadsheets/d/1hkXaeRBd7GJPuhIFjeKkEIziQik9mlkZpzjhxGrkA7A/edit?usp=sharing 
