@@ -244,6 +244,9 @@ intP,R,and Y are the pitch, roll, and yaw values.
 
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/circuit_board_wiring.png?raw=true)
 
+### Lick detection circuit
+
+
 ## Behavior PCB Overview
 
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/HarveyBehaviorPCB_v1.2.png)
@@ -320,15 +323,3 @@ We have used both a 3 monitor setup and this design and have not found a differe
 
 ### Slide out
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/slideOut_schematic.png)
-
-
-
-
-
-
-
-
-
-
-
-
