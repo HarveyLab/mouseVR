@@ -5,7 +5,7 @@ Hardware and software developed by members of the Harvey Lab and the HMS Neuroin
 ## Table of Contents
 
 1. [Overview](#Overview)
-2. [Main Components](#Main)
+2. [Main Components](#main)
 3. [Getting started](#Getting)
 4. [Build Guide](#Build)
 5. [Screen Assembly](#Screen)
@@ -19,7 +19,7 @@ Hardware and software developed by members of the Harvey Lab and the HMS Neuroin
 
 ## Overview
 
-### Main components [](#){name=Main}
+### [Main components](#main)
 Harvey Lab miniaturized mouse VR rig for virtual navigation and decision-making tasks
 
 The VR setup is comprised of several independent assemblies:
