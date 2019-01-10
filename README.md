@@ -19,7 +19,7 @@ Hardware and software developed by members of the Harvey Lab and the HMS Neuroin
 
 ## Overview
 
-### Main components
+### Main components [](#){name=Main}
 Harvey Lab miniaturized mouse VR rig for virtual navigation and decision-making tasks
 
 The VR setup is comprised of several independent assemblies:
