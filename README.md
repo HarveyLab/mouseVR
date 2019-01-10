@@ -43,7 +43,7 @@ Screen and ball cup assemblies:
 
 All the parts for the assemblies are listed in this google sheet: https://docs.google.com/spreadsheets/d/1hkXaeRBd7GJPuhIFjeKkEIziQik9mlkZpzjhxGrkA7A/edit?usp=sharing 
 
-The build guide (below, for now) contains detailed schematics of the various assemblies, as well as additional notes there about part requirements. 
+The build guide (below) contains detailed schematics of the various assemblies, as well as additional notes about part requirements and alternative parts. 
 
 ### Getting help
 
