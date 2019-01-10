@@ -4,14 +4,14 @@ Hardware and software developed by members of the Harvey Lab and the HMS Neuroin
 
 ## Table of Contents
 1. [Overview](#Overview)
-2. [Main Components](#Main components)
-3. [Getting started](#Getting started)
-4. [Build Guide](#Build Guide)
-5. [Screen Assembly](#Screen Assembly)
-6. [Ball Cup Assembly](#Ball cup assembly)
-7. [Ball Sensor Software](#Ball Sensor Software)
-8. [Reward system](#Reward system)
-9. [Behavior PCB Overview](#Behavior PCB Overview)
+2. [Main Components](#Main)
+3. [Getting started](#Getting)
+4. [Build Guide](#Build)
+5. [Screen Assembly](#Screen)
+6. [Ball Cup Assembly](#Ball)
+7. [Ball Sensor Software](#Ball)
+8. [Reward system](#Reward)
+9. [Behavior PCB Overview](#Behavior)
 10. [Software](#Software)
 11. [FAQs](#FAQs)
 
