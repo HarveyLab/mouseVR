@@ -264,11 +264,29 @@ Very approximate visual field coverage with the placement of the mouse as above:
 
 # Software
 
+## ViRMEn transformation functions
+We use the ViRMEn virtual reality engine developed by Dmitri Aronov. I have found that the following transformation functions work reasonably well, although for precise  
 
 
 # Appendix
 
 ## Part drawings / dimensions:
+
+### Screen assmebly
+![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/vrRig_screen_mainDimensions.png)
+
+### Ball cup
+
+### Ball cup base
+
+### Enclosure
+
+### Slide out
+
+
+
+
+
 
 
 
