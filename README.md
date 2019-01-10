@@ -171,7 +171,7 @@ The ball cup base does not require as tight tolerances or chemical resistance. I
 #### Styrofoam ball
 The ball cup is designed for an 8" stryrofoam ball. You can buy these on amazon or at most craft stores, but the tolerances will not be great. https://www.wecutfoam.com/ may offer slightly higher quality balls. We lathe our our 8" balls from open cell styrofoam blocks.
 
-### Assembly
+### Hardware Assembly
 
 Follow these steps to assemble the sensors:
 
@@ -187,11 +187,21 @@ Follow these steps to assemble the sensors:
 
 5. Put the sensors into the holes in the ball cup (oriented such that the connector pins ﬁt into the cutaway next to the sensor hole). Make sure that the sensor "slots in" all the way and sits ﬂush with the ball cup. Any failure to make the sensor completely ﬂat/tangent to cup surface will lead to erroneous measurements. Fix in place with the screws.
 
-6. Make ribbon cables to attach the sensors to the board. Ask somebody in the lab to show you how. Make sure that the orientation of the connectors with respect to the colored edge of the cable is the same on both ends.
-
-Orient the ball cup so that one sensor is behind the mouse (it doesn’t really matter which axis is which but it is good to be consistent across rigs).
+6. Make ribbon cables to attach the sensors to the board. Do this by cutting lengths of ribbon cable and press fitting the connectors into the ribbon cable using a vice. Secure both sides of the connectors with the included clips. **Make sure that the orientation of the connectors with respect to the colored edge of the cable is the same on both ends.** Double check with a multimeter. 
 
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/sensor_orientation.png)
+
+7. In the the base, file down a small notch for the ribbon cable to exit along the edge where the cup and base meet. 
+
+8. Orient the ball cup so that one sensor is behind the mouse (it doesn’t really matter which axis is which but it is good to be consistent across rigs).
+
+9. Screw the thorlabs posts and post holders in place on either side of the base, and bolt down the ball using 8-32 screws. Adjust the height of the posts so that the ball cup sits firm and snug on the base. Once you've tested everything, you can put a piece of electrical tape around the seam to make it more air-tight. 
+
+Now populate the the behavior PCB. At the minimum, you need the teensy and the ribon cable headers. If you want an analog ball signal (as opposed to reading it directly from the teensy) you will also need the RC smoothing circuit and whatever header(s) you will use to read that out (Nationa instruments or BNC).
+
+![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/ball_electronics_overview.png).
+
+
 
 
 
