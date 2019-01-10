@@ -1,6 +1,11 @@
 # Harvey Lab Mouse VR
-
 Hardware and software developed by members of the Harvey Lab and the HMS Neuroinstrumentation core.
+
+
+## Table of Contents
+1. [Overview](#Overview)
+
+## Overview
 
 ### Main components
 Harvey Lab miniaturized mouse VR rig for virtual navigation and decision-making tasks
