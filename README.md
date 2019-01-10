@@ -251,6 +251,7 @@ intP,R,and Y are the pitch, roll, and yaw values.
 ## Behavior PCB Overview
 
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/HarveyBehaviorPCB_v1.2.png)
+![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/populated_behavior_PCB.jpg)
 
 ### Getting started
 
