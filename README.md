@@ -1,5 +1,5 @@
 # Harvey Lab Mouse VR
-Hardware and software developed by members of the Harvey Lab and the HMS Neuroinstrumentation core.
+Developed by members of the Harvey Lab and the HMS Research Instrumentation Core.
 
 
 ## Table of Contents
@@ -47,9 +47,7 @@ The build guide (below, for now) contains detailed schematics of the various ass
 
 ### Getting help
 
-Please open an issue or email Noah.
-
-
+Open an issue or email Noah.
 
 # Build Guide
 
@@ -61,11 +59,8 @@ Please open an issue or email Noah.
 
 The parts are listed in the "screen assembly" section of the parts list google doc: https://docs.google.com/spreadsheets/d/1hkXaeRBd7GJPuhIFjeKkEIziQik9mlkZpzjhxGrkA7A/edit?usp=sharing 
 
-The back projection screen assembly is comprised of pieces of laser cut acrylic that house the two mirrors, a
-curved projector screen, and a laser cut mount for the PicoBit laser projector. 
-
 #### Projector
-The projector should ideally be a laser projector so that the image is in focus across the entire curvature of the screen (we have not tested conventional LED DLP projectors). In terms of laser projectors compatible with this design, we like the
+The projector should be a laser projector so that the image is in focus across the entire curvature of the screen (we have not tested any other type of projector with this design). In terms of laser projectors compatible with this design, we like the
 Celluon PicoPro, Celluon PicoBit, or the LaserBeamPro (in that order of preference). The LaserBeamPro can exhibit burn-in.
 Avoid the Sony portable laser projector due to lag. The projector throw ratio matters: get one with 1.4:1 (pretty standard for
 the small laser projectors). Projectors with greater divergence will work as well. Get a projector that projects straight out i.e.
