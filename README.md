@@ -3,7 +3,7 @@
 Hardware and software developed by members of the Harvey Lab and the HMS Neuroinstrumentation core.
 
 ### Main components
-Harvey Lab miniaturize mouse VR rig for virtual navigation and decision-making tasks
+Harvey Lab miniaturized mouse VR rig for virtual navigation and decision-making tasks
 
 The VR setup is comprised of several independent assemblies:
 
@@ -17,9 +17,7 @@ The VR setup is comprised of several independent assemblies:
 
 Each of these components is independent of the others: i.e. just the screen could be used in combination with a different treadmill and reward delivery system. The electronics for the ball sensors, reward delivery, and lick detection are all mounted on the same PCB. If only one or two of these functions are needed, you do not need to populate the entire PCB.
 
-
-The following figure given an overview of the screen and ballcup assemblies:
-
+Screen and ball cup assemblies:
 
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/VROverview.png)
 
