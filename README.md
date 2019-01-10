@@ -317,5 +317,8 @@ We have used both a 3 monitor setup and this design and have not found a differe
 ### Enclosure
 
 ### Slide out
+
+low profile drawer slides mounted with laser cut acrylic for pulling the ball cup assembly away from the screen in order to more easily mount the mouse and access the ball cup for cleaning. Slides should not be used with ephys or imaging due to instability and vibrations. 
+
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/slideOut_schematic.png)
 
