@@ -3,7 +3,19 @@ Hardware and software developed by members of the Harvey Lab and the HMS Neuroin
 
 
 ## Table of Contents
-1. [Overview](#Overview)
+1. [Overview](# Overview)
+2. [Main Components](# Main components)
+3. [Getting started](# Getting started)
+4. [Build Guide](# Build Guide)
+5. [Screen Assembly](# Screen Assembly)
+6. [Ball Cup Assembly](# Ball cup assembly)
+7. [Ball Sensor Software](# Ball Sensor Software)
+8. [Reward system](# Reward system)
+9. [Behavior PCB Overview](# Behavior PCB Overview)
+10. [Software](# Software)
+11. [FAQs](# FAQs)
+12. [Appendix: Part Drawings](# Appendix: Part Drawings)
+
 
 ## Overview
 
@@ -18,7 +30,7 @@ The VR setup is comprised of several independent assemblies:
 
 3. **Reward delivery system and lick sensor:** lick spout, liquid reward reservoir, solenoid, and associated electronics
 
-4. **Enclosure:** A light and sound-proof box surrounding the behavioral setup.
+4. **Enclosure:** A box surrounding the behavioral setup.
 
 Each of these components is independent of the others: i.e. just the screen could be used in combination with a different treadmill and reward delivery system. The electronics for the ball sensors, reward delivery, and lick detection are all mounted on the same PCB. If only one or two of these functions are needed, you do not need to populate the entire PCB.
 
