@@ -14,7 +14,6 @@ Hardware and software developed by members of the Harvey Lab and the HMS Neuroin
 9. [Behavior PCB Overview](# Behavior PCB Overview)
 10. [Software](# Software)
 11. [FAQs](# FAQs)
-12. [Appendix: Part Drawings](# Appendix: Part Drawings)
 
 
 ## Overview
@@ -287,6 +286,8 @@ Very approximate visual field coverage with the placement of the mouse as above:
 We use the ViRMEn virtual reality engine: https://pni.princeton.edu/pni-software-tools/virmen.  
 
 https://github.com/HarveyLab/mouseVR/blob/master/Software/Virmen/transformations/fliptransformCyl_NPparab.m Is an example of a ViRMEn transformation function that works reasonably well with this setup. It isn't the most accurate but looks fairly good to me and I've had good mouse behavior. Some people have approximated the parabola as a cylinder which can speed things up. If you're doing something that requires knowing exactly where in the visual field something is presented, don't rely on this function.
+
+# FAQs
 
 
 
