@@ -1,9 +1,7 @@
 # Harvey Lab Mouse VR
 
+Hardware and software developed by members of the Harvey Lab and the HMS Neuroinstrumentation core (see contribution section).
 
-
-
-## Overview
 ### Main components
 Harvey Lab miniaturize mouse VR rig for virtual navigation and decision-making tasks
 
@@ -197,9 +195,39 @@ Follow these steps to assemble the sensors:
 
 9. Screw the thorlabs posts and post holders in place on either side of the base, and bolt down the ball using 8-32 screws. Adjust the height of the posts so that the ball cup sits firm and snug on the base. Once you've tested everything, you can put a piece of electrical tape around the seam to make it more air-tight. 
 
-Now populate the the behavior PCB. At the minimum, you need the teensy and the ribon cable headers. If you want an analog ball signal (as opposed to reading it directly from the teensy) you will also need the RC smoothing circuit and whatever header(s) you will use to read that out (Nationa instruments or BNC).
+Now populate the the behavior circuit board. Refer to the behavior PCB section of the guide. At the very least, you need the teensy and the ribon cable headers. If you want an analog ball signal (as opposed to reading it directly from the teensy) you will also need the RC smoothing circuit (smoothing PWM output of the teensy) and whatever header(s) you will use to read that out (Nationa instruments or BNC).
 
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/ball_electronics_overview.png).
+
+### Ball sensor software
+
+1. Download this repo (all files required): https://github.com/HarveyLab/SPI_Mouse_Control/tree/master
+
+2. Install the Arduino IDE and Teensyduino. Note that software will not work for all versions of Arduino IDE and Teensyduino (confirmed does not work with latest arduino/teensyduino as of April 2018 - it will compile and run but give erroneous output). An installer for verified working versions  (Arduino 1.8.2, Teensyduino 1.36) is located: Z:\HarveyLab\Tier1\Software\Ball Sensor . It is highly recommended you use these versions. 
+
+3. Connect the teensy via USB, and make sure you can identify it in the arduino software. If you are unsure at this step, read documentation and/or use trial code available from teensyduino (documentation: https://www.pjrc.com/teensy/td_usage.html)
+
+4. Locate the debugMode.ino file in the repo (in dual-sensor) and open it. Be sure the 'ADNS9800_SROM' file is in the same folder (i.e. don't change the location of these files from how it is in repo).
+
+5. Open the serial monitor (be sure to monitor the com port your teensy is using), and then verify/upload the code
+
+6. As the teensy reboots, it will print information over the serial port. Verify that the 'Product ID' for both chip 1 and chip 2 is 0x33 (hexadecimal) or 51 (decimal). See images of expected output, below. If it is not, there is a low-level problem with teensy to sensor communication, usually due to incorrect wiring: immediately unplug teensy from USB to prevent sensor burn-out and review entire wiring setup to be sure pin/cable orientation is not accidentally flipped. If correct product ID is observed, proceed...
+
+7. After booting up, the teensy will continue to live-print various information over the serial port, including the Product ID (should be constant, indicates if connection is valid), a temporally-integrated measure of velocity on pitch, roll, and yaw axes, and indicators of the image quality received by both sensors ('Squal' 1 & 2, see ADNS9800 manual included in repo for more information).
+
+8. Verify by rotating the ball that the correct axis of rotation is inferred from the sensor (errors here usually indicate accidentally swapping Chip 1 & 2), and that the image quality from both sensors is reasonable and of similar level.
+
+9. Once debugging is complete, locate and open the quietOp.ino file from the dual-sensor folder of repo, and verify/upload the code as before. This code will print out information over the serial port at chip boot-up only, and is preferred for running the circuit when not actively debugging. Once this code has been uploaded and the chip has rebooted the first time, the teensy will automatically re-load this program whenever it is dis-/re-connected from a power source.
+
+Note, the discretization-resolution of the sensors can be controlled by modifying lines 116 & 121 of quietOp.ino. This involves a trade-off between the dynamic range of the PWM-channel and the smallest-detectable movement, and is set to default at 0x10 (range 0x01 - 0x29). Be sure any modification is applied to both chips equally, or rotational axes will no longer be properly de-mixed.
+
+Expected output from debugMode.ino upon startup:
+![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/teensy_expected_ouput_running.PNG)
+
+Example expected output of debugMode.ino for stationary ball:
+![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/teensy_expected_ouput_running.PNG)
+
+intP,R,and Y are the pitch, roll, and yaw values. 
 
 
 
@@ -208,6 +236,10 @@ Now populate the the behavior PCB. At the minimum, you need the teensy and the r
 
 
 # Software
+
+
+
+# Authors and contributions
 
 
 
