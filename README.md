@@ -157,6 +157,46 @@ can be easily removed with a box cutter or other blade. cutting a slight V into 
 can help with insertion. Once the screen is in place, use binder clips, tape, or glue along the top edge to secure it. Trim away excess screen. We also often apply black tape along the vertical edges of the screen to stick it
 to the sides of the box and block out stray light from the projector.
 
+## Ball cup assembly
+
+### Parts list and notes
+
+The parts are listed in the "screen assembly" section of the parts list google doc: https://docs.google.com/spreadsheets/d/1hkXaeRBd7GJPuhIFjeKkEIziQik9mlkZpzjhxGrkA7A/edit?usp=sharing 
+
+#### 3D printed ball cup and base
+The ball cup should be printed from a strong plastic that has good chemical resistance and can be easily cleaned. I believe we get ours printed by an online machine shop and coated on the inside surface (? not sure about this - get info from Chris). The inside surface should be very smooth to reduce friction.
+
+The ball cup base does not require as tight tolerances or chemical resistance. It should be printed from a fairly strong plastic. 
+
+#### Styrofoam ball
+The ball cup is designed for an 8" stryrofoam ball. You can buy these on amazon or at most craft stores, but the tolerances will not be great. https://www.wecutfoam.com/ may offer slightly higher quality balls. We lathe our our 8" balls from open cell styrofoam blocks.
+
+### Assembly
+
+Follow these steps to assemble the sensors:
+
+1. Sand down the back of a blue connector so that it ﬁts into the sensor board in the orientation shown in the picture below (notch in blue plastic should face away from center of board).
+
+![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/sensor_in_ball_cup.png)
+
+2. Solder the connector onto the board
+
+3. Attach the plastic lens to the sensor board with epoxy. Apply epoxy only to the back of the board, where the small pins of the lens assembly protrude through the holes in the board. While the epoxy hardens, place the sensor lens-down on a ﬂat surface to ensure that the lens assembly is seated correctly.
+
+4. Use a 2-56 tap to tap the screw holes in the ball cup. Alternately, just use a 2-56 screw to self-tap.
+
+5. Put the sensors into the holes in the ball cup (oriented such that the connector pins ﬁt into the cutaway next to the sensor hole). Make sure that the sensor "slots in" all the way and sits ﬂush with the ball cup. Any failure to make the sensor completely ﬂat/tangent to cup surface will lead to erroneous measurements. Fix in place with the screws.
+
+6. Make ribbon cables to attach the sensors to the board. Ask somebody in the lab to show you how. Make sure that the orientation of the connectors with respect to the colored edge of the cable is the same on both ends.
+
+Orient the ball cup so that one sensor is behind the mouse (it doesn’t really matter which axis is which but it is good to be consistent across rigs).
+
+![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/sensor_orientation.png)
+
+
+
+
+
 # Software
 
 
