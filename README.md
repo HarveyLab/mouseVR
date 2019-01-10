@@ -91,8 +91,11 @@ Any 1/4" acrylic that can be easily laser cut should work fine.
 These steps will take approximately one hour.
 
 For part preparation you will need the following equipment:
+
 • Power drill
+
 • 1/4-20 thread cutting tap
+
 • Laser cutter with at least 12 x 24" bead, power to cut through 1/4 inch acrylic. (There are online services that will do this cutting for you if you don't have access to a laser cutter. We've been quoted around $400 for cutting these designs, although there may be cheaper options).
 
 Steps:
@@ -104,10 +107,13 @@ that should be 1/4-20 tapped. It is safe to assume that if a 1/4-20 screw does n
 to the parts drawings if you are unsure. Don’t worry about tapping perfectly perpendicular to the face of the acrylic - we
 use a hand drill and eyeball it and that works fine for us. Use a blade to clear out waste acrylic from the parabola-shaped
 screen slots in the top and bottom pieces.
+
 **3. Cut screen film to size:** Using a ruler and a pair of scissors, cut out a rectangular piece that is approximately 21.3 x 12
 inches.
+
 4. If using McMaster rails or 80-20 that needs to be cut to length, cut 4 pieces 18" in length for the legs, and 2 pieces 15"
 in length for the cross braces. Hand tap the ends of 15" pieces with the 1/4-20 thread cutting tap.
+
 **5. If using self-adhesive black flocked paper, cut two ~ 7.5 x 4" pieces.**
 
 ### Assembly
