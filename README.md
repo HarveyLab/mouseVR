@@ -174,12 +174,13 @@ to the sides of the box and block out stray light from the projector.
 The parts are listed in the "screen assembly" section of the parts list google doc: https://docs.google.com/spreadsheets/d/1hkXaeRBd7GJPuhIFjeKkEIziQik9mlkZpzjhxGrkA7A/edit?usp=sharing 
 
 #### 3D printed ball cup and base
-The ball cup should be printed from a strong plastic that has good chemical resistance and can be easily cleaned. I believe we get ours printed by an online machine shop and coated on the inside surface (? not sure about this - get info from Chris). The inside surface should be very smooth to reduce friction.
+The ball cup (https://github.com/HarveyLab/mouseVR/blob/master/Hardware/BallCupAssembly/harvey_ballCup_ADNS9800_Vers1_1.ipt) should be printed from a strong plastic that has good chemical resistance and can be easily cleaned. I believe we get ours printed by an online machine shop and coated on the inside surface (? not sure about this - get info from Chris). The inside surface should be very smooth to reduce friction.
 
-The ball cup base does not require as tight tolerances or chemical resistance. It should be printed from a fairly strong plastic. 
+The ball cup base (https://github.com/HarveyLab/mouseVR/blob/master/Hardware/BallCupAssembly/low_profile_noiseAttachment.ipt) does not require as tight tolerances or chemical resistance. It should be printed from a fairly strong plastic. 
 
 #### Styrofoam ball
 The ball cup is designed for an 8" stryrofoam ball. You can buy these on amazon or at most craft stores, but the tolerances will not be great. https://www.wecutfoam.com/ may offer slightly higher quality balls. We lathe our our 8" balls from open cell styrofoam blocks.
+
 
 ### Hardware Assembly
 
@@ -207,9 +208,12 @@ Follow these steps to assemble the sensors:
 
 9. Screw the thorlabs posts and post holders in place on either side of the base, and bolt down the ball using 8-32 screws. Adjust the height of the posts so that the ball cup sits firm and snug on the base. Once you've tested everything, you can put a piece of electrical tape around the seam to make it more air-tight. 
 
-Now populate the the behavior circuit board. Refer to the behavior PCB section of the guide. At the very least, you need the teensy and the ribon cable headers. If you want an analog ball signal (as opposed to reading it directly from the teensy) you will also need the RC smoothing circuit (smoothing PWM output of the teensy) and whatever header(s) you will use to read that out (Nationa instruments or BNC).
+10. Attach the air supply. Screw the duct hose fittings onto each end of the duct hose. Place the rubber stopper into one duct hose fitting and slide the other duct hose fitting onto the attachment point in the base (it should fit tightly). Connect the rubber stoppper end of the duct hose to pressurized air using 1/4" tubing. It can be useful to have a pressure gauge & regulator between the wall air and the duct hose, as well as an air filter. You should have at least 4 feet of duct hose in order for the ball to float properly. Add more duct hose to dampen the sound.  
+
+11. Populate the the behavior circuit board. Refer to the behavior PCB section of the guide. At the very least, you need the teensy and the ribon cable headers. If you want an analog ball signal (as opposed to reading it directly from the teensy) you will also need the RC smoothing circuit (smoothing PWM output of the teensy) and whatever header(s) you will use to read that out (Nationa instruments or BNC).
 
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/ball_electronics_overview.png).
+
 
 ### Ball sensor software
 
