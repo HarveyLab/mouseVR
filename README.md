@@ -296,20 +296,12 @@ The projector is driven simply as another monitor, so this really depends on the
 
 **What are the pros and cons of using this setup over multiple monitors?**
 The pros (+) and cons (-) of multiple monitors:
-
-Multiple monitors:
-
-+ slightly better availability and choice of different screen types and resolutions. may be better if you care about precise visual stimulus timing as gaming monitors are available w/ high frame rates and low input lag.
-
-+ Potential to be more compact (although this design is already very compact).
-
-- Requires either better graphics card to drive 3+ monitors or additional hardware such as "triple head-to-go" (which may complicate transformation functions and introduce lag - you'd need to test). 
-
-- Bezels: not a big deal for navigation stuff, but does disrupt things like whole-field optic flow, visual RF mapping in same experiment, etc. May be less immersive.
-
-- May be harder to correct for illumination across visual field as that can vary w/ angle that the mouse is seeing the screen from.
-
-- Less flexible configuration - with our design you can cut holes, notches, slots into any part of the screen etc to fit optics, microscopes, cameras, etc. You can easily resize the screen and adjust design. We have found this to be very useful.
+(+) slightly better availability and choice of different screen types and resolutions. may be better if you care about precise visual stimulus timing as gaming monitors are available w/ high frame rates and low input lag.
+(+) Potential to be more compact (although this design is already very compact).
+(-) Requires either better graphics card to drive 3+ monitors or additional hardware such as "triple head-to-go" (which may complicate transformation functions and introduce lag - you'd need to test). 
+(-) Bezels: not a big deal for navigation stuff, but does disrupt things like whole-field optic flow, visual RF mapping in same experiment, etc. May be less immersive.
+(-) May be harder to correct for illumination across visual field as that can vary w/ angle that the mouse is seeing the screen from.
+(-) Less flexible configuration - with our design you can cut holes, notches, slots into any part of the screen etc to fit optics, microscopes, cameras, etc. You can easily resize the screen and adjust design. We have found this to be very useful.
 
 We have used both a 3 monitor setup and this design and have not found a difference in terms of behavior.
 
