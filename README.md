@@ -265,9 +265,6 @@ https://github.com/HarveyLab/mouseVR/blob/master/BehaviorElectronics/HarveyBehav
 
 Final board should look like this:
 
-## Enclosure
-
-
 
 # VR rig details
 
