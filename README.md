@@ -254,10 +254,22 @@ intP,R,and Y are the pitch, roll, and yaw values.
 ### Lick detection circuit
 
 
+
 ## Behavior PCB Overview
 
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/HarveyBehaviorPCB_v1.2.png)
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/populated_behavior_PCB.jpg)
+
+Options for reading in licks:
+1. Read in licks as an analog signal exactly like the ball signal. Note you may miss licks this way if your sampling rate is low.
+2. Attach the lick output to a counter channel on your DAQ & read the counter channel (not sure if these boards are capable of having counter channels or not) http://www.ni.com/academic/students/learn-daq/digital/ 
+3. Set up a counter on the teensy and read directly from the teensy using serial communication
+
+Options for controlling reward valve:
+1. Control using the DAQ analog output (User 3 and/or 4). Set duration of valve opening in your matlab code (e.e. write a giveReward function). You wil need to install jumpers (see fig below) if you haven't already. 
+2. Control using teensy triggered by DAQ (User 3 and/or 4, always accesible to teensy, even w/out jumpers present)
+3. Control using teensy triggered by serial communication
+
 
 ### Getting started
 
@@ -300,15 +312,22 @@ The projector is driven simply as another monitor, so this really depends on the
 
 **What are the pros and cons of using this setup over multiple monitors?**
 The pros (+) and cons (-) of multiple monitors:
+
 (+) slightly better availability and choice of different screen types and resolutions. may be better if you care about precise visual stimulus timing as gaming monitors are available w/ high frame rates and low input lag.
+
 (+) Potential to be more compact (although this design is already very compact).
+
 (-) Requires either better graphics card to drive 3+ monitors or additional hardware such as "triple head-to-go" (which may complicate transformation functions and introduce lag - you'd need to test). 
+
 (-) Bezels: not a big deal for navigation stuff, but does disrupt things like whole-field optic flow, visual RF mapping in same experiment, etc. May be less immersive.
+
 (-) May be harder to correct for illumination across visual field as that can vary w/ angle that the mouse is seeing the screen from.
+
 (-) Less flexible configuration - with our design you can cut holes, notches, slots into any part of the screen etc to fit optics, microscopes, cameras, etc. You can easily resize the screen and adjust design. We have found this to be very useful.
 
 We have used both a 3 monitor setup and this design and have not found a difference in terms of behavior.
 
+# Troubleshooting
 
 # Appendix
 
