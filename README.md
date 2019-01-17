@@ -43,7 +43,7 @@ Screen and ball cup assemblies:
 
 All the parts for the assemblies are listed in this google sheet: https://docs.google.com/spreadsheets/d/1hkXaeRBd7GJPuhIFjeKkEIziQik9mlkZpzjhxGrkA7A/edit?usp=sharing 
 
-The build guide (below) contains detailed schematics of the various assemblies, as well as additional notes about part requirements and alternative parts. 
+The build guide (below) contains detailed schematics of the various assemblies, **as well as additional notes about part requirements and alternative parts**. 
 
 ### Getting help
 
@@ -84,7 +84,7 @@ compatible with thorlabs rails as they have slightly different slot dimensions. 
 
 #### Acrylic
 
-Any 1/4" acrylic that can be easily laser cut should work fine.
+Any 1/4" acrylic that can be easily laser cut should work fine. It does not need to be matte or black. Opaque acrylic is best to block stray light. Stray light and reflections can also be blocked on any type of acylic using pieces of the black flocked self adhesive paper 
 
 ### Part Preparation
 
@@ -173,10 +173,26 @@ to the sides of the box and block out stray light from the projector.
 
 The parts are listed in the "screen assembly" section of the parts list google doc: https://docs.google.com/spreadsheets/d/1hkXaeRBd7GJPuhIFjeKkEIziQik9mlkZpzjhxGrkA7A/edit?usp=sharing 
 
-#### 3D printed ball cup and base
-The ball cup (https://github.com/HarveyLab/mouseVR/blob/master/Hardware/BallCupAssembly/harvey_ballCup_ADNS9800_Vers1_1.ipt) should be printed from a strong plastic that has good chemical resistance and can be easily cleaned. I believe we get ours printed by an online machine shop and coated on the inside surface (? not sure about this - get info from Chris). The inside surface should be very smooth to reduce friction.
+#### 3D printed ball cup
+The ball cup (https://github.com/HarveyLab/mouseVR/blob/master/Hardware/BallCupAssembly/harvey_ballCup_ADNS9800_Vers1_1.ipt) should be printed from a strong plastic that has good chemical resistance and can be easily cleaned. 
 
-The ball cup base (https://github.com/HarveyLab/mouseVR/blob/master/Hardware/BallCupAssembly/low_profile_noiseAttachment.ipt) does not require as tight tolerances or chemical resistance. It should be printed from a fairly strong plastic. 
+We get ours 3D printed by 3Dsystems using the follow specifications:
+
+Process: Selective Laser Sintering (SLS)
+
+Part: https://github.com/HarveyLab/mouseVR/blob/master/Hardware/BallCupAssembly/harvey_ballCup_ADNS9800_Vers1_1.ipt
+
+Material: Glass-filled Nylon (Duraform GF)
+
+Finish: Standard (Coated). Liquid proof entire part with cyanacrylate. Inside of the cup should eb extra smooth. 
+
+Unit price: 796.13
+
+It is possible that cheaper printed ball cups would work, but these work very reliably in our hadns, can be easily cleaned, and have never needed to be replaced even after years of use. 
+
+### 3D printed ball cup base
+
+The ball cup base (https://github.com/HarveyLab/mouseVR/blob/master/Hardware/BallCupAssembly/low_profile_noiseAttachment.ipt) does not require as tight tolerances, surface finish, or chemical resistance. We get ours printed in house and probably any material is fine.  
 
 #### Styrofoam ball
 The ball cup is designed for an 8" stryrofoam ball. You can buy these on amazon or at most craft stores, but the tolerances will not be great. https://www.wecutfoam.com/ may offer slightly higher quality balls. We lathe our our 8" balls from open cell styrofoam blocks.
