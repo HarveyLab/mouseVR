@@ -70,6 +70,8 @@ setup.
 
 **Note that the laser cut mount for the projector included in these designs is specifically for the PicoBit.** It will also work with the PicoPro and laser beam pro if you remove the top "alignment" piece and stick the projector to the bottom piece using double sided tape or velcro (the height and geometry works, you will just need to center the image by eye when you stick down the projector). 
 
+If you want to test out a DLP projection with this desing, this projector: https://www.amazon.com/dp/B078PC1QS5/ref=sspa_dk_detail_5?psc=1 has the right throw. I'm not sure if it projectes straight out from the projector or slightly upwards. Parts of the projected image will be out of focus due to projecting onto a curved surface, but this might not be so bad for the mouse. If you do try it, let us know how it works!
+
 #### Mirrors
 
 These should be approximately 1/4" thick and first surface if possible. Non first surface mirrors will result in some double
