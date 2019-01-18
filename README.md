@@ -277,7 +277,7 @@ intP,R,and Y are the pitch, roll, and yaw values.
 
 The behavior PCB has the circutry to monitor two lick inputs (for example if using lick left / lick right setup), control two independent solenoid valves for dispensing liquid reward, and interface with ball movement sensors. 
 
-You can read sensors and control valves using **(a)** the teensy directly (with serial communication) **(b)** a USB-6001 NIDAQ plugged into the board **(c)** some combination of the teensy and the NIDAQ. 
+You can read sensors and control valves using **(a)** the teensy directly (with serial communication) **(b)** a USB-3001 NIDAQ plugged into the board **(c)** some combination of the teensy and the NIDAQ. 
 
 
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/HarveyBehaviorPCB_v1.2.png)
