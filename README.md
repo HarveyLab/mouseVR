@@ -275,19 +275,29 @@ intP,R,and Y are the pitch, roll, and yaw values.
 
 ## Behavior PCB Overview
 
+The behavior PCB has the circutry to monitor two lick inputs (for example if using lick left / lick right setup), control two independent solenoid valves for dispensing liquid reward, and interface with ball movement sensors. 
+
+You can read sensors and control valves using **(a)** the teensy directly (with serial communication) **(b)** a USB-6001 NIDAQ plugged into the board **(c)** some combination of the teensy and the NIDAQ. 
+
+
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/HarveyBehaviorPCB_v1.2.png)
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/populated_behavior_PCB.jpg)
 
-Options for reading in licks:
+**Options for reading in licks:**
 1. Read in licks as an analog signal exactly like the ball signal. Note you may miss licks this way if your sampling rate is low.
 2. Attach the lick output to a counter channel on your DAQ & read the counter channel (not sure if these boards are capable of having counter channels or not) http://www.ni.com/academic/students/learn-daq/digital/ 
 3. Set up a counter on the teensy and read directly from the teensy using serial communication
 
-Options for controlling reward valve:
+**Options for controlling reward valve:**
 1. Control using the DAQ analog output (User 3 and/or 4). Set duration of valve opening in your matlab code (e.e. write a giveReward function). You wil need to install jumpers (see fig below) if you haven't already. 
 2. Control using teensy triggered by DAQ (User 3 and/or 4, always accesible to teensy, even w/out jumpers present)
 3. Control using teensy triggered by serial communication
 
+![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/behaviorPCB_jumpers.png)
+
+NIDAQ connections
+
+![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/behaviorPCB_NIDAQConnections.png)
 
 ### Getting started
 
