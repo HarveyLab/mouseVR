@@ -401,3 +401,9 @@ low profile drawer slides mounted with laser cut acrylic for pulling the ball cu
 
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/slideOut_schematic.png)
 
+
+
+
+
+Documentation by Noah Pettit 2019-02-09
+
