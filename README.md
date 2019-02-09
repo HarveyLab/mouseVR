@@ -404,6 +404,4 @@ low profile drawer slides mounted with laser cut acrylic for pulling the ball cu
 
 
 
-
-Documentation by Noah Pettit 2019-02-09
-
+Contributors: Noah Pettit, Matthias Minderer, Selmaan Chettih, Charlotte Arlt, Jim Bohnslav, Pavel Gorelick, Ofer Mazor, Christopher Harvey.
