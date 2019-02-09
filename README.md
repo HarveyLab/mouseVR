@@ -60,13 +60,16 @@ Open an issue or email Noah.
 The parts are listed in the "screen assembly" section of the parts list google doc: https://docs.google.com/spreadsheets/d/1hkXaeRBd7GJPuhIFjeKkEIziQik9mlkZpzjhxGrkA7A/edit?usp=sharing 
 
 #### Projector
-The projector should be a laser projector so that the image is in focus across the entire curvature of the screen (we have not tested any other type of projector with this design). In terms of laser projectors compatible with this design, we like the
+The projector should be a laser projector so that the image is in focus across the entire curvature of the screen. In terms of laser projectors compatible with this design, we like the
 Celluon PicoPro, Celluon PicoBit, or the LaserBeamPro (in that order of preference). The LaserBeamPro can exhibit burn-in.
 Avoid the Sony portable laser projector due to lag. The projector throw ratio matters: get one with 1.4:1 (pretty standard for
 the small laser projectors). Projectors with greater divergence will work as well. Get a projector that projects straight out i.e.
 the light for the horizontal center line of the projected image should be at the same elevation as the body of the projector.
 Some projectors (especially short throw) are designed to project upwards from a table or desk, this will not work with the
 setup.
+
+If you wish to use DLP projectors, we've done some basic testing of them but have not trained mice with them. The image is slightly out of focus in certain places, but it is not a serious issue. The main issue with DLP projectors is that most do not project straight out of the projector - they project slightly upwards with build in keystone correction. This has two main effects. First, the projector will need to be mounted at a slight angle relative to the top piece of the VR setup (ask Noah if this isn't clear). Second, due to the keystone correct and the angle of mounting, the transformation functions will need to be adjusted appropriately within whatever VR software you are using (if you wish to know exactly where on the screen things are being displayed).
+
 
 **Note that the laser cut mount for the projector included in these designs is specifically for the PicoBit.** It will also work with the PicoPro and laser beam pro if you remove the top "alignment" piece and stick the projector to the bottom piece using double sided tape or velcro (the height and geometry works, you will just need to center the image by eye when you stick down the projector). 
 
@@ -176,7 +179,7 @@ to the sides of the box and block out stray light from the projector.
 The parts are listed in the "screen assembly" section of the parts list google doc: https://docs.google.com/spreadsheets/d/1hkXaeRBd7GJPuhIFjeKkEIziQik9mlkZpzjhxGrkA7A/edit?usp=sharing 
 
 #### 3D printed ball cup
-The ball cup (https://github.com/HarveyLab/mouseVR/blob/master/Hardware/BallCupAssembly/harvey_ballCup_ADNS9800_Vers1_1.ipt) should be printed from a strong plastic that has good chemical resistance and can be easily cleaned. 
+The ball cup (https://github.com/HarveyLab/mouseVR/blob/master/Hardware/BallCupAssembly/harvey_ballCup_ADNS9800_Vers1_1.ipt) should ideally be printed from a strong plastic that has good chemical resistance and can be easily cleaned. 
 
 We get ours 3D printed by 3Dsystems using the follow specifications:
 
@@ -188,9 +191,14 @@ Material: Glass-filled Nylon (Duraform GF)
 
 Finish: Standard (Coated). Liquid proof entire part with cyanacrylate. Inside of the cup should eb extra smooth. 
 
-Unit price: 796.13
+Unit price: ~800 USD (prices vary depending on quantity).
 
-It is possible that cheaper printed ball cups would work, but these work very reliably in our hadns, can be easily cleaned, and have never needed to be replaced even after years of use. 
+These are expensive but work very reliably in our hadns, can be easily cleaned, and have never needed to be replaced even after years of use. 
+
+If you do wish to use a cheaper material and/or printing technology, rigidity - specifically resistance to warping over time - is the most important material charachteristic. My guess is that ABS or a stiff nylon would work. Good chemical resistivity is recommended but not absolutely required. It is good practice to clean the ball cup regularly. Most prosumer or professional FDM, SLA, or SLS 3D printers should provide sufficient resultion for this part. The inside of the ball cup should be as smooth as possible, so lower quality printers may work as well together with some post processing such as sanding or solvent smoothing on the inside of the cup.
+
+See FAQs for more details.
+
 
 ### 3D printed ball cup base
 
@@ -354,6 +362,23 @@ The pros (+) and cons (-) of multiple monitors:
 (-) Less flexible configuration - with our design you can cut holes, notches, slots into any part of the screen etc to fit optics, microscopes, cameras, etc. You can easily resize the screen and adjust design. We have found this to be very useful.
 
 We have used both a 3 monitor setup and this design and have not found a difference in terms of behavior.
+
+**Many of these parts are expensive for our lab - are there cheaper alternatives?
+
+In many cases there are cheaper alternatives. Some of these are listed in the parts list. 
+
+For example:
+
+Ball cup: May be printed with cheaper materials / quality than the quote listed. We have not explored this. See ball cup section in this guide for more details.
+
+Projector: Low resolution DLP mini projectors are very cheap! Using different projectors may require some small modifications to the hardware. See projector section for more details. 
+
+Thorlabs: most of these parts can be replaced with equivalents from McMaster, 80-20, amazon, etc. 
+
+First surface mirrors: First surface mirrored acrylic is also available for much cheaper and can be laser cut. There will be a slight textured look to the projected image (due to surface not being as flat) but it is subtle and I'm pretty sure it wouldn't influence behavior. 
+
+Acrylic: There are cheaper sources than Canal Plastics for the acrylic. It does not need to have high thickness tolerances and it does not need to be black - any color will work. 
+
 
 # Troubleshooting
 
