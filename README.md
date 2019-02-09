@@ -343,10 +343,10 @@ https://github.com/HarveyLab/mouseVR/blob/master/Software/Virmen/transformations
 
 # FAQs
 
-**What are the computer hardware requirements?** 
+## What are the computer hardware requirements?
 The projector is driven simply as another monitor, so this really depends on the VR software that you are using and the complexity of the worlds that you need to render. Consult the documentation for whatever visual stimulus or VR software you are using: Our computers use GTX 1060 cards (https://www.amazon.com/GR8-II-T044Z-Desktop-i5-7400-GeForce/dp/B06WLHT15C is one model we have used successfully) but this is overkill for most of the worlds we render. Integrated graphics are a bad idea and will likely result in <60FPS. For ViRMEn we suggest at least a 3.00GHz CPU and 8GB of RAM. 
 
-**What are the pros and cons of using this setup over multiple monitors?**
+## What are the pros and cons of using this setup over multiple monitors?
 The pros (+) and cons (-) of multiple monitors:
 
 (+) slightly better availability and choice of different screen types and resolutions. may be better if you care about precise visual stimulus timing as gaming monitors are available w/ high frame rates and low input lag.
@@ -363,7 +363,7 @@ The pros (+) and cons (-) of multiple monitors:
 
 We have used both a 3 monitor setup and this design and have not found a difference in terms of behavior.
 
-**Many of these parts are expensive for our lab - are there cheaper alternatives?
+## Many of these parts are expensive for our lab - are there cheaper alternatives?
 
 In many cases there are cheaper alternatives. Some of these are listed in the parts list. 
 
