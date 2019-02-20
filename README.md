@@ -379,6 +379,10 @@ First surface mirrors: First surface mirrored acrylic is also available for much
 
 Acrylic: There are cheaper sources than Canal Plastics for the acrylic. It does not need to have high thickness tolerances and it does not need to be black - any color will work. 
 
+## I want to use metric screws / hardware - are these deisgns compatible?
+
+We haven't tested this but it should be! Use M6 screws / taps in place of 1/4-20. Please let us know if this works! Everything was desinged in inches, so if units appear undefined for a particular drawing, please assume inches.  
+
 
 # Troubleshooting
 
