@@ -383,6 +383,31 @@ Acrylic: There are cheaper sources than Canal Plastics for the acrylic. It does 
 
 We haven't tested this but it should be! Use M6 screws / taps in place of 1/4-20. Please let us know if this works! Everything was desinged in inches, so if units appear undefined for a particular drawing, please assume inches.  
 
+## How do I order the behavior PCBs
+
+We use 4pcb.com $33 per board special: https://www.4pcb.com/pcb-prototype-2-4-layer-boards-specials.html 
+
+1. Select 2 layer, 5 day turn
+
+2. Sign into your account (or create one)
+
+3. Step 1 of 4: upload files. Upload the .zip file in https://github.com/HarveyLab/mouseVR/tree/master/BehaviorElectronics
+
+4. Part#: HarveyBehaviorPCB_v1
+Rev#: 1.2
+X dim(in): 8
+Y dim(in) 4.95
+Soldermask: both side
+silkscreen: top side
+layers: 2
+Quantity: 10 (or whatever you want > 3)
+Multiple Images: No
+Ship methoid: your choice
+ITAR: No
+
+5. Enter shipping and billing info 
+
+6. Comments: STUDENT
 
 # Troubleshooting
 
