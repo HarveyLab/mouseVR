@@ -409,6 +409,25 @@ ITAR: No
 
 6. Comments: STUDENT
 
+## How do you calibrate the ball sensors?
+
+First, make sure that the sensors are oriented the same way as we have them and offset by 90 degrees in yaw. Make sure that the sensor sits ﬂush with the ball cup. Any failure to make the sensor completely ﬂat/tangent to cup surface will lead to erroneous measurements. Note that the part of the sensor chip with the ribbon cable socket should be towards the top of the ball! See the ball cup assembly section of the guide for more info. 
+
+The teensy outputs velocity signals for pitch, roll, and yaw in arbitrary units. The magnitude of these readings can vary depending on a bunch of different things including (I think) the distance of the ball from the sensors. It is recommended that you somewhat regularly check calibration since the styrofoam balls naturally wear down over time and this change in size can influence the readings. It shouldn't drift by a huge amount, but better to be safe.
+
+Calibration is very simple and we do it regularly. Hook everything up, set up your VR software and movement function, and rotate the ball by a set amount in pitch, roll, or yaw. Pitch corresponds to forward running and we typically use roll for either lateral or view angle changes. After rotating by a set amount (for example, 2 ball rotations), note the distance travelled in the virtual environment (either in view angle degrees or translational movement). Knowing the circumference of the ball (~63.8 cm), you can set gain(s) in your vr software appropriately such that you have a certain number of vr_units per cm. 
+
+## What factors are important for mouse positioning relative to the ball and the screen?
+
+Note that positioning on the ball and relative to the screen can be thought of as pretty much independent of each other. If you want to change the positioning relative to the screen i'd recommend moving the ball cup assembly, and not repositining the mouse relative to the ball. More about the factors that go into the positioning:
+
+1. Positioning on the ball. This positioning has been optimized in the early days of Chris's lab for good mouse behavior and ball control. For tasks in which the mouse needs to turn/steer, we typically use roll for side-to-side translation or view angle and pitch for forward movement. If the mouse is sitting towards the top of the ball it will often result in the mouse spinning the ball mostly in yaw (it may be hard to imagine this but once you have a mouse on the ball you'll see what I mean). Placing the mouse further back on the ball increases rotation in pitch and encourages forward running. I believe steering is also aided by this slightly further-back position. If your task requires turning or steering I'd recommend starting with this position and adjusting from there. If you are just using a linear track & a yaw/roll blocker then the ball becomes a treadmill and positioning is not quite as important. 
+
+2. Positioning relative to the screen. One factor to consider here is the focal distance of the mouse's vision. Everything beyond about 5 inches is in focus for the mouse (reference?). I'm not sure how detrimental it would be to have parts of the screen closer than this and thus out of focus. We discussed increasing the peripheral coverage when designing the VR and decided that it wasn't worth it for what we use it for. 210 deg of visual coverage is fine for behavior and we get nice place cells with it as well.
+If you decide to move the ball closer to the screen, you may want to create a small cutout in the bottom of the screen so that the ball doesn't hit into it, or just raise the screen by a bit. 
+
+
+
 # Troubleshooting
 
 # Appendix
