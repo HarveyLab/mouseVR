@@ -34,6 +34,8 @@ The VR setup is comprised of several independent assemblies:
 
 Each of these components is independent of the others: i.e. just the screen could be used in combination with a different treadmill and reward delivery system. The electronics for the ball sensors, reward delivery, and lick detection are all mounted on the same PCB. If only one or two of these functions are needed, you do not need to populate the entire PCB.
 
+The screen assembly is designed to be small enough to be mounted within a standard 19" server rack, which could easily fit 3 rigs stacked vertically (or two + monitor and keyboard station). 
+
 Screen and ball cup assemblies:
 
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/VROverview.png)
