@@ -10,7 +10,7 @@ Developed by members of the Harvey Lab and the HMS Research Instrumentation Core
 4. [Build Guide](#build-guide)
 5. [Screen Assembly](#screen-assembly)
 6. [Ball Cup Assembly](#ball-cup-assembly)
-7. [Ball Sensor Software](#ball-cup-software)
+7. [Ball Sensor Software](#ball-sensor-software)
 8. [Reward system](#reward-system)
 9. [Behavior PCB Overview](#behavior-pcb-overview)
 10. [Software](#software)
