@@ -4,8 +4,8 @@ Developed by members of the Harvey Lab and the HMS Research Instrumentation Core
 
 ## Table of Contents
 
-1. [Overview](#Overview)
-2. [Main Components](#Main)
+1. [Overview](#overview)
+2. [Main Components](#main-components)
 3. Getting started
 4. Build Guide
 5. Screen Assembly
