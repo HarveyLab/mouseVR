@@ -4,7 +4,7 @@ Developed by members of the Harvey Lab and the HMS Research Instrumentation Core
 
 ## Table of Contents
 
-1. [Overview](#Overview)
+1. [Overview](#1.)
 2. Main Components
 3. Getting started
 4. Build Guide
@@ -17,7 +17,7 @@ Developed by members of the Harvey Lab and the HMS Research Instrumentation Core
 11. [FAQs](#FAQs)
 
 
-## Overview
+## 1. Overview
 
 ### Main components
 Harvey Lab miniaturized mouse VR rig for virtual navigation and decision-making tasks
@@ -362,6 +362,8 @@ The pros (+) and cons (-) of multiple monitors:
 (-) May be harder to correct for illumination across visual field as that can vary w/ angle that the mouse is seeing the screen from.
 
 (-) Less flexible configuration - with our design you can cut holes, notches, slots into any part of the screen etc to fit optics, microscopes, cameras, etc. You can easily resize the screen and adjust design. We have found this to be very useful.
+
+The projector also has the advantage that it's easy to apply filters to the output of the projector. For example: dimming the brightness uniformly with an ND filter, or applying a short-pass filter to attenuate hard-to-light-block red wavelengths (that the mouse can't see anyway) during imaging experiments. 
 
 We have used both a 3 monitor setup and this design and have not found a difference in terms of behavior.
 
