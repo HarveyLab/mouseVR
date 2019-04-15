@@ -4,8 +4,8 @@ Developed by members of the Harvey Lab and the HMS Research Instrumentation Core
 
 ## Table of Contents
 
-1. [Overview](#1.)
-2. Main Components
+1. [Overview](#Overview)
+2. [Main Components](#Main)
 3. Getting started
 4. Build Guide
 5. Screen Assembly
@@ -17,7 +17,7 @@ Developed by members of the Harvey Lab and the HMS Research Instrumentation Core
 11. [FAQs](#FAQs)
 
 
-##1. Overview
+## Overview
 
 ### Main components
 Harvey Lab miniaturized mouse VR rig for virtual navigation and decision-making tasks
