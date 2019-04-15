@@ -6,15 +6,15 @@ Developed by members of the Harvey Lab and the HMS Research Instrumentation Core
 
 1. [Overview](#overview)
 2. [Main Components](#main-components)
-3. Getting started
-4. Build Guide
-5. Screen Assembly
-6. Ball Cup Assembly
-7. Ball Sensor Software
-8. Reward system
-9. Behavior PCB Overview
-10. [Software](#Software)
-11. [FAQs](#FAQs)
+3. [Getting started](#getting-started)
+4. [Build Guide](#build-guide)
+5. [Screen Assembly](#screen-assembly)
+6. [Ball Cup Assembly](#ball-cup-assembly)
+7. [Ball Sensor Software](#ball-cup-software)
+8. [Reward system](#reward-system)
+9. [Behavior PCB Overview](#behavior-pcb-overview)
+10. [Software](#software)
+11. [FAQs](#faqs)
 
 
 ## Overview
