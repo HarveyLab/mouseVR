@@ -1,5 +1,5 @@
 # Harvey Lab Mouse VR
-Developed by members of the Harvey Lab and the HMS Research Instrumentation Core.
+Developed by members of the Harvey Lab (http://harveylab.hms.harvard.edu/) and the HMS Research Instrumentation Core (http://instrumentation.hms.harvard.edu/).
 
 
 ## Table of Contents
