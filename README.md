@@ -458,11 +458,15 @@ If you decide to move the ball closer to the screen, you may want to create a sm
 
 ## Part drawings / dimensions:
 
-### Modified screen assembly with Texas Instruments DLP3010 
-From Oleksandr Radomskyi, Santiagio Rompani Group, EMBL, Rome
 
 ### Screen assembly
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/vrRig_screen_mainDimensions.png)
+
+### Modified screen assembly with Texas Instruments DLP3010 
+From Oleksandr Radomskyi, Santiagio Rompani Group, EMBL, Rome
+![alt_text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/mousevr_dlp_1.png)
+![alt_text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/mousevr_dlp_3.png)
+
 
 ### Ball cup
 
