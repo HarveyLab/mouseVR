@@ -15,6 +15,7 @@ Developed by members of the Harvey Lab (http://harveylab.hms.harvard.edu/) and t
 9. [Behavior PCB Overview](#behavior-pcb-overview)
 10. [Software](#software)
 11. [FAQs](#faqs)
+12. [Appendix](#appendix)
 
 
 ## Overview
@@ -53,17 +54,26 @@ Open an issue or email Noah.
 
 # Build Guide
 
-## Screen Assembly
+## Projector
 
-### Parts list and notes
 
-![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/vrRig_v01r1_bpBox_exploded.png)
+Update 2021-02-18: 
 
-The parts are listed in the "screen assembly" section of the parts list google doc: https://docs.google.com/spreadsheets/d/1hkXaeRBd7GJPuhIFjeKkEIziQik9mlkZpzjhxGrkA7A/edit?usp=sharing 
+This back projection screen assembly was originally designed for use with the Celluon Picobit laser projector (released in 2016). This projector (along with our recommended alternative laser projectors) has been discontinued and Celluon no longer produces laser projectors. The advantage of laser projectors is that they can project onto a curved surfaces with the image in focus across the entire surface. We can no longer recommend these however due to their inavailability.
 
-#### Projector
-The projector should be a laser projector so that the image is in focus across the entire curvature of the screen. In terms of laser projectors compatible with this design, we like the
-Celluon PicoPro, Celluon PicoBit, or the LaserBeamPro (in that order of preference). The LaserBeamPro can exhibit burn-in.
+We now recommend using the Texas instruments LightCrafter DLP 3010 EVM:  https://www.ti.com/tool/DLPDLCR3010EVM-G2. The DLP 2010 may also work.
+Both will require some modifications to the mirror positioning - we will update the designs accordingly in the future (once I am back in lab to test) but get in touch if you need advice.
+
+The LightCrafters will be supported for longer than typical consumer projectors, have greater programmability, and have some some nice user features such as the ability to easily display calibration images and independently shut off Red green and blue LEDs in the software, which could be great for imaging applications - getting rid of that hard-to-block red light without a filter. Some groups have also reported being able to swap out some of the LEDs for other LEDs of desired wavelength - for example UV (DLP3010). They also have quite low input lag: from coarse tests it appears to be comparable to a standard dell desktop monitor (5-15 ms), although if this is important for you please conduct your own tests. 
+
+The differences in focus across the screen are fairly subtle even to the human eye, so we do not expect this to impact visually-guided navigation or studies of mouse visual responses. Please see appendix for pictures of a modified screen assembly used with a DLP3010 (Oleksandr Radomskyi, Santiagio Rompani Group, EMBL, Rome). 
+
+Thanks to Oleksandr Radomskyi and Santiagio Rompani for sharing information about using Lightcrafters with these designs. 
+
+
+OLD INFO - see update above:
+
+The projector should be a laser projector so that the image is in focus across the entire curvature of the screen. In terms of laser projectors compatible with this design, we like the Celluon PicoPro, Celluon PicoBit, or the LaserBeamPro (in that order of preference). The LaserBeamPro can exhibit burn-in.
 Avoid the Sony portable laser projector due to lag. The projector throw ratio matters: get one with 1.4:1 (pretty standard for
 the small laser projectors). Projectors with greater divergence will work as well. Get a projector that projects straight out i.e.
 the light for the horizontal center line of the projected image should be at the same elevation as the body of the projector.
@@ -72,10 +82,20 @@ setup.
 
 If you wish to use DLP projectors, we've done some basic testing of them but have not trained mice with them. The image is slightly out of focus in certain places, but it is not a serious issue. The main issue with DLP projectors is that most do not project straight out of the projector - they project slightly upwards with build in keystone correction. This has two main effects. First, the projector will need to be mounted at a slight angle relative to the top piece of the VR setup (ask Noah if this isn't clear). Second, due to the keystone correct and the angle of mounting, the transformation functions will need to be adjusted appropriately within whatever VR software you are using (if you wish to know exactly where on the screen things are being displayed).
 
-
 **Note that the laser cut mount for the projector included in these designs is specifically for the PicoBit.** It will also work with the PicoPro and laser beam pro if you remove the top "alignment" piece and stick the projector to the bottom piece using double sided tape or velcro (the height and geometry works, you will just need to center the image by eye when you stick down the projector). 
 
-If you want to test out a DLP projection with this desing, this projector: https://www.amazon.com/dp/B078PC1QS5/ref=sspa_dk_detail_5?psc=1 has the right throw. I'm not sure if it projectes straight out from the projector or slightly upwards. Parts of the projected image will be out of focus due to projecting onto a curved surface, but this might not be so bad for the mouse. If you do try it, let us know how it works!
+If you want to test out a DLP projection with this design, this projector: https://www.amazon.com/dp/B078PC1QS5/ref=sspa_dk_detail_5?psc=1 has the right throw. I'm not sure if it projectes straight out from the projector or slightly upwards. Parts of the projected image will be out of focus due to projecting onto a curved surface, but this might not be so bad for the mouse. If you do try it, let us know how it works!
+
+
+
+## Screen Assembly
+
+### Parts list and notes
+
+![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/vrRig_v01r1_bpBox_exploded.png)
+
+The parts are listed in the "screen assembly" section of the parts list google doc: https://docs.google.com/spreadsheets/d/1hkXaeRBd7GJPuhIFjeKkEIziQik9mlkZpzjhxGrkA7A/edit?usp=sharing 
+
 
 #### Mirrors
 
@@ -438,6 +458,9 @@ If you decide to move the ball closer to the screen, you may want to create a sm
 
 ## Part drawings / dimensions:
 
+### Modified screen assembly with Texas Instruments DLP3010 
+From Oleksandr Radomskyi, Santiagio Rompani Group, EMBL, Rome
+
 ### Screen assembly
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/vrRig_screen_mainDimensions.png)
 
@@ -452,6 +475,8 @@ If you decide to move the ball closer to the screen, you may want to create a sm
 low profile drawer slides mounted with laser cut acrylic for pulling the ball cup assembly away from the screen in order to more easily mount the mouse and access the ball cup for cleaning. Slides should not be used with ephys or imaging due to instability and vibrations. 
 
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/slideOut_schematic.png)
+
+
 
 
 
