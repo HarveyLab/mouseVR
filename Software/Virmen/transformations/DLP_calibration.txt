@@ -1,0 +1,3 @@
+The transformation fuction fliptransform_parab_dlp_w_offset (for the TI DLP 3010 evaluation board) can be calibrated to correct for if the projector is not mounted perfectly aligned with the Y axis. To use this feature, just include a variable called "projectorYaw" in your experiment. This should be the angle in *degrees* left of center (i.e. relative to straight ahead) at which the projector is mounted. If omitted, the transformation will still work, it will just assume no yaw correction.
+
+Note: if recompiling the MEX-file in a newer version of MATLAB, the option -R2018a MUST be used in the "mex" call.
