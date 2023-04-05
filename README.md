@@ -302,7 +302,23 @@ intP,R,and Y are the pitch, roll, and yaw values.
 
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/circuit_board_wiring.png?raw=true)
 
+
+
+
 ### Lick detection circuit
+
+Use the same  connector (to plug into PCB) and wire as the solenoid valve circuitry, but on the lick spout end, strip both red and black (ground) wires. The red wire will be connected to the lick spout and the black wire should be electrically continuous with the mouse. 
+
+Red wire to lick spout assembly: 
+Wrap the stripped end of the red wire around a section of the metal lick spout and secure it in place using either tape, zip tie, and/or heat shrink tubing. Basically it just needs to be continuous with the metal of the lick spout - this can be checked with a multimeter. Ensure that the lick spout is mounted such that it is not connected to ground or electrically continuous with any large metal pieces (like thorlabs posts and clamps, for example). This can be achieved using electrical tape or heat shrink tubing as insulation and/or plastic luer lock connectors that lick spout is screwed in to. For example, you can screw the base of the lick spout into a plastic luer lock connector with barb for reward tubing and clamp the whole thing into thorlabs SWC,RA90 or similar using a 1/4-20 screw. 
+
+Black wire to mouse:
+Attach the black wire to whatever is being used to hold the mouse's headplate. I screw it into our headplate holder (happy to share designs if you need that). You just need to be electrically continuous with the mouse with low resistance. 
+
+Test the lick detector:
+I do this with my hand: put one finger on the headplate holder and with another on the same hand touch the lick spout. Lick detector circuit output should be high when you are touching it (i.e. connecting spout and ground), low otherwise.
+
+Note: do not assume that if you are electrically continuous with the headplate then you are continuous with the mouse. This might not be the case depending on your surgical prep. If you are getting poor lick detection through the mouse but the lick detector is working perfectly when you test it (i.e. with your hand as described above) then it is possible that the mouse is not properly grounded. This can be easily remedied by placing a drop of ultrasound gel touching both the headplate and the mouse's skin (I sometimes would put it behind one ear) - that has always been sufficient in my hands to bridge the mouse to ground. 
 
 
 
