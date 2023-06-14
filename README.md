@@ -14,6 +14,7 @@ Developed by members of the Harvey Lab (http://harveylab.hms.harvard.edu/) and t
 8. [Reward system](#reward-system)
 9. [Behavior PCB Overview](#behavior-pcb-overview)
 10. [Software](#software)
+11. [Headfixation](#headfixation)
 12. [FAQs](#faqs)
 13. [Appendix](#appendix)
 
@@ -384,9 +385,9 @@ https://github.com/HarveyLab/mouseVR/blob/master/Software/Virmen/transformations
 
 # Headfixation
 
-Head-fixation is independent of VR, but here are some designs for headplates and headplate holders developed in the Harvey lab for our experiments.  
+Head-fixation harware is somewhat is independent of the VR setup, but here are some designs for headplates and headplate holders developed in the Harvey lab for our experiments.  
 
-Design files are in:  
+Design files are in: https://github.com/HarveyLab/mouseVR/tree/master/Hardware/HeadplatesAndHolders  
 
 ## Headplates
 
@@ -401,7 +402,6 @@ This is the "standard" headplate using the harvey lab. It is called "larger cent
 ### headplate_largerCenter_frontcutout
 Modified from headplate_largerCenter to have the front cut out. This was designed for CA1 imaging to allow the headplate to be placed much closer to the skull to give enough working distance for the objective to image through a cannula. 
 ![image](https://github.com/HarveyLab/mouseVR/assets/16245463/d6efa4ae-15b0-467a-ae10-0ede92ac6007)
-
 
 ### headplate_largerCenter_frontsidecutout
 Modified from headplate_largerCenter to have the front cut and side cutout. Allows headplate to be inserted into the two-sided headplateholder without removing any screws. In conjuction with that headplate holder fixation is very stable (e.g. for 2p imaging, no vibrations or motion outside of normal brain motion) and highly reproducible across days (~on the order of a few tens of microns).
