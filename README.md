@@ -14,8 +14,9 @@ Developed by members of the Harvey Lab (http://harveylab.hms.harvard.edu/) and t
 8. [Reward system](#reward-system)
 9. [Behavior PCB Overview](#behavior-pcb-overview)
 10. [Software](#software)
-11. [FAQs](#faqs)
-12. [Appendix](#appendix)
+11. [Headfixation](#headfixation)
+12. [FAQs](#faqs)
+13. [Appendix](#appendix)
 
 
 ## Overview
@@ -381,6 +382,76 @@ Very approximate visual field coverage with the placement of the mouse as above:
 We use the ViRMEn virtual reality engine: https://pni.princeton.edu/pni-software-tools/virmen.  
 
 https://github.com/HarveyLab/mouseVR/blob/master/Software/Virmen/transformations/fliptransformCyl_NPparab.m Is an example of a ViRMEn transformation function that works reasonably well with this setup. It isn't the most accurate but looks fairly good to me and I've had good mouse behavior. Some people have approximated the parabola as a cylinder which can speed things up. If you're doing something that requires knowing exactly where in the visual field something is presented, don't rely on this function.
+
+# Headfixation
+
+Head-fixation harware is somewhat is independent of the VR setup, but here are some designs for headplates and headplate holders developed in the Harvey lab for our experiments.  
+
+Design files are in: https://github.com/HarveyLab/mouseVR/tree/master/Hardware/HeadplatesAndHolders  
+
+## Headplates
+
+All of the following headplates are designed to be cut from ~0.04" titanium. Waterjet cutting arguably produces the smoothest edges but the easiset and fastest service for getting them made is sendcutsend.com. 100 headplates will cost ~$130 and each can be reused many times. For ordering, upload a dxf file (either one in this repository, or export from inventor by right-clicking the face of the part and selecting "export face as...") and select Grade 5 Titanium (.040") as the material. 
+
+All units are by default inches.
+
+### headplate_largerCenter
+This is the "standard" headplate using the harvey lab. It is called "larger center" because the opening int he middle has been expanded from older versions to accomodate larger cranial windows. 
+![image](https://github.com/HarveyLab/mouseVR/assets/16245463/461ed404-1e26-4214-b0c4-d952b82e70b0)
+
+### headplate_largerCenter_frontcutout
+Modified from headplate_largerCenter to have the front cut out. This was designed for CA1 imaging to allow the headplate to be placed much closer to the skull to give enough working distance for the objective to image through a cannula. 
+![image](https://github.com/HarveyLab/mouseVR/assets/16245463/d6efa4ae-15b0-467a-ae10-0ede92ac6007)
+
+### headplate_largerCenter_frontsidecutout
+Modified from headplate_largerCenter to have the front cut and side cutout. Allows headplate to be inserted into the two-sided headplateholder without removing any screws. In conjuction with that headplate holder fixation is very stable (e.g. for 2p imaging, no vibrations or motion outside of normal brain motion) and highly reproducible across days (~on the order of a few tens of microns).
+![image](https://github.com/HarveyLab/mouseVR/assets/16245463/5a26d8d4-9561-42a6-ad36-10ffe2f3c727)
+
+### harveyLabWideHeadplate_1p4in
+Version with longer forks coming out side
+![image](https://github.com/HarveyLab/mouseVR/assets/16245463/b10e4879-3918-4186-93f0-9c8a90087fff)
+
+
+## Headplate holders
+
+### twoSidedHeadplateHolder_NP_v02
+![image](https://github.com/HarveyLab/mouseVR/assets/16245463/ba1001da-8af1-42fa-b5ca-3df845863362)
+Designed for reproducible mounting across days, especially for pitch, roll, and yaw, which cannot be compensated for by XYZ stages.  (translation reproducibility is on the order of a few tens of microns which can be easily compensated for using the stage). Note some of the holes are for clamping screws, some are for alignment pins or set screws (more on that below).
+
+Machined from aluminium. Small holes should be 4-40 tapped, larger holes can optionally be 1/4-20 tapped for affixing lick spout hardware. No fillet or chamfer on the edges so make sure to ask the machinist to deburr the edges. Note the fillets where the two arms become thinner are uncessesary and could just as well be steps or whatever is easier to machine. 
+
+For imaging setups it should be milled from aluminium. For training rigs where micron-level stability is not needed, 3d printed or laser cut plastic is ok. 1/8 inch acrylic will flex and vibrate a bit but I have still used it to train mice and it was fine. 
+
+I recommend using these screws for attaching the headplate:
+https://www.mcmaster.com/98164A429/
+Shorter screws (1/8") will work too but will wear out the threads in the headplate holder faster. 
+
+These set screws should be used for alignment:
+https://www.mcmaster.com/92311A105/
+
+Here is the configuration I of screws I have used:
+![image](https://github.com/HarveyLab/mouseVR/assets/16245463/e9d791ed-c585-43de-ac46-d19a23f3452c)
+
+Set screws in the alignment holes can be used to provide 3 points of contact between the edges of the headplate and the holder, thus providing reproducible mounting to within a few tens of microns, and constraining rotational degrees of freedom. The arrow indicates the direction of force I apply to the headplate while clamping it in place. I usually clamp in place with screws in clamping holes 3 and 1, or 2 and 3, or Clamping hole 2 and Alignment hole 3, but you can experiment with what works well for you. The unlabelled holes can be used to store screws - for example if clamping with holes 2 and 3 - one of the screws will need to be moved into place one the headplate is in position. Alternatively if using a _frontsidecutout headplate (see above), use clamping holes 1 and 3 (or mirrored versions of those). 
+
+It is designed to be mounted to this kinematic plate from thorlabs: https://www.thorlabs.com/thorproduct.cfm?partnumber=KB3X3
+
+I mount the kinematic plate and headplate holder to this https://www.thorlabs.com/thorproduct.cfm?partnumber=C1515 for use with a 1.5 inch post for imaging.
+
+I used these damped posts but they are probably overkill, any 1.5" post would do. https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=170. 
+
+The kinematic mount allows for the headplate holder to be removed for cleaning the ball and cup and put back in place in the exact same position. 
+
+The mounting can be easily customized but having it on a kinematic base allows you to maintain reproducible positioning while also being able to remove the headplate holder to clean and remove the ball and access ball cup. I suggest while the mouse is on there to use a single long screw through the center hole of the kinematic base into C1515 bracket (finger-tight) to ensure everything is fixed in place, since the magnets of the kinematic base are not super strong.  
+
+![image](https://github.com/HarveyLab/mouseVR/assets/16245463/8c003e40-7559-49cb-9e46-0239323f9744)
+
+### twoSidedHeadplateHolder_wide_sendcutsend and twoSidedHeadplateHolder_v3_scs.dxf
+
+A version designed to be cut by sendcutsend.com from a flat sheet of stainless steel. Each one costs about $80. Upload twoSidedHeadplateHolder_v3_scs.dxf and choose material Stainless Steel (304 series) (.187"). It is possible that thinner versions of the material may work as well but we have not tested those.  This design has more holes than the other headplate holder in order to accomodate ever wider headplate designs (such as harveylabwideheadplate_1p4in.dxf). However it is backwards compatible with all the headplates listed here. 
+![image](https://github.com/HarveyLab/mouseVR/assets/16245463/c0193c0c-7c81-4289-aa3b-a92cc520f9f2)
+
+
 
 # FAQs
 
