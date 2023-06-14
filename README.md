@@ -400,11 +400,11 @@ This is the "standard" headplate using the harvey lab. It is called "larger cent
 ![image](https://github.com/HarveyLab/mouseVR/assets/16245463/461ed404-1e26-4214-b0c4-d952b82e70b0)
 
 ### headplate_largerCenter_frontcutout
-Modified from headplate_largerCenter to have the front cut out. This was designed for CA1 imaging to allow the headplate to be placed much closer to the skull to give enough working distance for the objective to image through a cannula. 
+Modified from headplate_largerCenter to have the front cut out. This was designed for CA1 imaging to allow the headplate to be placed much closer to the skull to give enough working distance for the objective to image through a cannula. It alos provides a bit more flexibility to in terms of headplate positioning relative to the window.
 ![image](https://github.com/HarveyLab/mouseVR/assets/16245463/d6efa4ae-15b0-467a-ae10-0ede92ac6007)
 
 ### headplate_largerCenter_frontsidecutout
-Modified from headplate_largerCenter to have the front cut and side cutout. Allows headplate to be inserted into the two-sided headplateholder without removing any screws. In conjuction with that headplate holder fixation is very stable (e.g. for 2p imaging, no vibrations or motion outside of normal brain motion) and highly reproducible across days (~on the order of a few tens of microns).
+Modified from headplate_largerCenter to have the front cut and side cutout. One clamping fork was removed for better positioning during ca1 surgery. In conjuction with the two-sided headplate holder, fixation is very stable (e.g. for 2p imaging, no vibrations or motion outside of normal brain motion) and highly reproducible across days (~on the order of a few tens of microns).
 ![image](https://github.com/HarveyLab/mouseVR/assets/16245463/5a26d8d4-9561-42a6-ad36-10ffe2f3c727)
 
 ### harveyLabWideHeadplate_1p4in
@@ -432,7 +432,7 @@ https://www.mcmaster.com/92311A105/
 Here is the configuration I of screws I have used:
 ![image](https://github.com/HarveyLab/mouseVR/assets/16245463/e9d791ed-c585-43de-ac46-d19a23f3452c)
 
-Set screws in the alignment holes can be used to provide 3 points of contact between the edges of the headplate and the holder, thus providing reproducible mounting to within a few tens of microns, and constraining rotational degrees of freedom. The arrow indicates the direction of force I apply to the headplate while clamping it in place. I usually clamp in place with screws in clamping holes 3 and 1, or 2 and 3, or Clamping hole 2 and Alignment hole 3, but you can experiment with what works well for you. The unlabelled holes can be used to store screws - for example if clamping with holes 2 and 3 - one of the screws will need to be moved into place one the headplate is in position. Alternatively if using a _frontsidecutout headplate (see above), use clamping holes 1 and 3 (or mirrored versions of those). 
+Set screws in the alignment holes can be used to provide 3 points of contact between the edges of the headplate and the holder, thus providing reproducible mounting to within a few tens of microns, and constraining rotational degrees of freedom. The arrow indicates the direction of force I apply to the headplate while clamping it in place. I usually clamp in place with screws in clamping holes 3 and 1, or 2 and 3, or Clamping hole 2 and Alignment hole 3, but you can experiment with what works well for you. The unlabelled holes can be used to store screws - for example if clamping with holes 2 and 3 - one of the screws will need to be moved into place one the headplate is in position. 
 
 It is designed to be mounted to this kinematic plate from thorlabs: https://www.thorlabs.com/thorproduct.cfm?partnumber=KB3X3
 
