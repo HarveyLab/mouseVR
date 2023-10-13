@@ -51,7 +51,11 @@ The build guide (below) contains detailed schematics of the various assemblies, 
 
 ### Getting help
 
-Open an issue or email Noah.
+Open an issue. We will do our best to support hardware-related issues and correct errors or update documentation where things are unclear. Issues related to the design and execution of virtual environments (for example running ViRMEn code) is currently beyond the scope of this repository. 
+
+### Contributing
+
+We welcome contributions including, but not limited to, hardware improvements, example code for hardware interfacing, and refinements to our documentation. Please submit your contributions through a pull request.
 
 # Build Guide
 
