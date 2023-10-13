@@ -304,6 +304,9 @@ intP,R,and Y are the pitch, roll, and yaw values.
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/circuit_board_wiring.png?raw=true)
 
 
+Picture of populated solenoid valve circuit:
+![image](https://github.com/HarveyLab/mouseVR/assets/16245463/ee388adf-3a10-4eb0-b3e0-552e36182ac2)
+
 
 
 ### Lick detection circuit
@@ -332,6 +335,10 @@ You can read sensors and control valves using **(a)** the teensy directly (with 
 
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/HarveyBehaviorPCB_v1.2.png)
 ![alt text](https://github.com/HarveyLab/mouseVR/blob/master/Guide/populated_behavior_PCB.jpg)
+
+
+Note in the photo of the populated board the MOSFETs in the reward circuit are not pictured. Refer to "Reward Circuit" for an image of the populated circuit on that section of the board. https://github.com/HarveyLab/mouseVR/tree/master/BehaviorElectronics contains complete schematics and bill of materials, so it is best to use those as a guide when populating your board. 
+
 
 **Options for reading in licks:**
 1. Read in licks as an analog signal exactly like the ball signal. Note you may miss licks this way if your sampling rate is low.
